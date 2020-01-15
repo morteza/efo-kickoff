@@ -1,3 +1,12 @@
-# EFO Data
+# Data for "Executive Functions Ontology" (EFO)
 
-A new dataset of publications frequency about executive functions, tasks, and concepts. EFO ontology v1 was used to fetch publications from PubMed.
+A collection of datasets and ontologies used for the EFO kickoff project.
+
+# Repository structure
+TODO
+
+# Codebooks
+TODO
+
+# License & Permissions
+TODO
