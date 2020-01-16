@@ -19,7 +19,7 @@ import pandas as pd
 
 import os
 
-owl_path = "file:///Users/morteza/workspace/ontologies/efo.owl"
+owl_path = "ontologies/efo.owl"
 owl_prefix = "http://www.semanticweb.org/morteza/ontologies/2019/11/executive-functions-ontology#"
 
 efo = get_ontology(owl_path).load()
@@ -219,10 +219,10 @@ def query_pubmed_for_concepts(concepts, csv_file):
                 print(csv_line)
                 csv.write(csv_line)
 
-#query_pubmed_for_tasks(tasks, "/Users/morteza/workspace/notebooks/efo/data/efo_pubmed_tasks_hits.v2.csv")  
+#query_pubmed_for_tasks(tasks, "datasets/efo_pubmed_tasks_hits.v2.csv")  
 
-#query_pubmed_for_concepts(concepts, "/Users/morteza/workspace/notebooks/efo/data/efo_pubmed_concepts_hits.v2.csv")  
-query_pubmed(tasks, concepts, "/Users/morteza/workspace/notebooks/efo/data/efo_pubmed_hits.v2.csv")
+#query_pubmed_for_concepts(concepts, "datasets/efo_pubmed_concepts_hits.v2.csv")  
+query_pubmed(tasks, concepts, "datasets/efo_pubmed_hits.v2.csv")
 
 
 # %%

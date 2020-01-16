@@ -7,7 +7,7 @@ import pandas as pd
 
 
 # input csv files
-data_dir = "/Users/morteza/workspace/notebooks/efo/data/"
+data_dir = "/Users/morteza/workspace/efo_kickoff/datasets/"
 data_version = "20200114"
 csv_path = f"{data_dir}efo_pubmed_hits.{data_version}.csv"
 tasks_csv_path = f"{data_dir}efo_pubmed_tasks_hits.{data_version}.csv"
@@ -32,11 +32,11 @@ def merge_csv_files(tasks_concepts_hits_csv, concepts_hits_csv, tasks_hits_csv):
 
   return df
 
-def combine_hits(csv_path):
+def combine_suffixed_hits(csv_path):
   """WARNING: it's a destructive process, and not tested yet! PC is freezed!"""
   df = pd.read_csv(csv_path)
   df['task_suffixed_hits'] = df['task_suffixtask_hits'] + df['task_suffixtest_hits'] + df['task_suffixgame_hits']
-  df['task_suffixed_ef_hits'] = df['task_suffixtask_hits'] + df['task_suffixtest_hits'] + df['task_suffixgame_hits']
+  df['task_suffixed_ef_hits'] = df['task_suffixtask_ef_hits'] + df['task_suffixtest_ef_hits'] + df['task_suffixgame_ef_hits']
   df['task_suffixed_concept_ef_hits'] = (
     df['task_suffixtask_concept_ef_hits'] +
     df['task_suffixtest_concept_ef_hits'] + 
@@ -48,11 +48,10 @@ def combine_hits(csv_path):
     df['task_suffixgame_concept_hits']
   )
 
-  to_drop_cols = df.filter(like = ['suffixtest','suffixtask','suffixgame']).columns
-  #df.drop(to_drop_cols, axis='columns', inplace=True)
+  to_drop_cols = df.filter(regex = '_suffix(task|test|game)_').columns
+  df.drop(to_drop_cols, axis='columns', inplace=True)
 
   return df
 
-
 merge_csv_files(csv_path, concepts_csv_path, tasks_csv_path).to_csv(output_csv_path)
-#WARNING combine_hits(output_csv_path).to_csv(output_csv_path)
+combine_suffixed_hits(output_csv_path).to_csv(output_csv_path)
