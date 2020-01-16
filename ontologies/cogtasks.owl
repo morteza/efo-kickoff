@@ -1,0 +1,152 @@
+Prefix(:=<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks>
+
+Declaration(Class(:BackwardDigitSpan))
+Declaration(Class(:Congruent))
+Declaration(Class(:CorsiBlock))
+Declaration(Class(:Cue))
+Declaration(Class(:DigitSpan))
+Declaration(Class(:Flanker))
+Declaration(Class(:ForwardDigitSpan))
+Declaration(Class(:Incongruence))
+Declaration(Class(:InvalidCue))
+Declaration(Class(:N-back))
+Declaration(Class(:OrderedClick))
+Declaration(Class(:Response))
+Declaration(Class(:SpatialSpan))
+Declaration(Class(:Stimulus))
+Declaration(Class(:StopSignal))
+Declaration(Class(:Stroop))
+Declaration(Class(:StructuredTask))
+Declaration(Class(:Task))
+Declaration(Class(:TaskFamily))
+Declaration(Class(:TaskVariant))
+Declaration(Class(<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#0-back>))
+Declaration(ObjectProperty(:belongsTo))
+Declaration(ObjectProperty(:hasDemo))
+Declaration(ObjectProperty(:hasImplementationAt))
+Declaration(ObjectProperty(:isVariantOf))
+Declaration(DataProperty(:longName))
+Declaration(DataProperty(:name))
+Declaration(DataProperty(:shortName))
+Declaration(DataProperty(:taskHistory))
+Declaration(NamedIndividual(:CorsiBlock))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :belongsTo (:belongsTo)
+
+ObjectPropertyRange(:belongsTo :TaskFamily)
+
+# Object Property: :hasImplementationAt (:hasImplementationAt)
+
+SubObjectPropertyOf(:hasImplementationAt owl:topObjectProperty)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :longName (:longName)
+
+SubDataPropertyOf(:longName :name)
+
+# Data Property: :shortName (:shortName)
+
+SubDataPropertyOf(:shortName :name)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :BackwardDigitSpan (:BackwardDigitSpan)
+
+SubClassOf(:BackwardDigitSpan :TaskVariant)
+
+# Class: :Congruent (:Congruent)
+
+SubClassOf(:Congruent :Stimulus)
+
+# Class: :CorsiBlock (:CorsiBlock)
+
+AnnotationAssertion(rdfs:comment :CorsiBlock "default corsi block experimental design")
+SubClassOf(:CorsiBlock :StructuredTask)
+
+# Class: :Cue (:Cue)
+
+SubClassOf(:Cue :Stimulus)
+
+# Class: :DigitSpan (:DigitSpan)
+
+SubClassOf(:DigitSpan :StructuredTask)
+
+# Class: :Flanker (:Flanker)
+
+SubClassOf(:Flanker :StructuredTask)
+
+# Class: :ForwardDigitSpan (:ForwardDigitSpan)
+
+SubClassOf(:ForwardDigitSpan :TaskVariant)
+
+# Class: :Incongruence (:Incongruence)
+
+SubClassOf(:Incongruence :Stimulus)
+
+# Class: :InvalidCue (:InvalidCue)
+
+SubClassOf(:InvalidCue :Cue)
+
+# Class: :N-back (:N-back)
+
+SubClassOf(:N-back :StructuredTask)
+
+# Class: :OrderedClick (:OrderedClick)
+
+SubClassOf(:OrderedClick :TaskFamily)
+
+# Class: :SpatialSpan (:SpatialSpan)
+
+SubClassOf(:SpatialSpan :StructuredTask)
+
+# Class: :StopSignal (Stop-Signal)
+
+AnnotationAssertion(rdfs:label :StopSignal "Stop-Signal")
+SubClassOf(:StopSignal :StructuredTask)
+
+# Class: :Stroop (:Stroop)
+
+SubClassOf(:Stroop :StructuredTask)
+
+# Class: :StructuredTask (:StructuredTask)
+
+AnnotationAssertion(rdfs:comment :StructuredTask "TODO: change name to principled or classic?")
+SubClassOf(:StructuredTask :Task)
+
+# Class: <http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#0-back> (<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#0-back>)
+
+SubClassOf(<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#0-back> :N-back)
+SubClassOf(<http://www.semanticweb.org/morteza.ansarinia/ontologies/2019/tasks#0-back> :TaskVariant)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :CorsiBlock (:CorsiBlock)
+
+ClassAssertion(:CorsiBlock :CorsiBlock)
+ClassAssertion(ObjectSomeValuesFrom(:belongsTo :OrderedClick) :CorsiBlock)
+
+
+)

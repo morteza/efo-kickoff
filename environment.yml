@@ -1,0 +1,14 @@
+name: efo-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - arviz
+    - pymc3
+    - metapub
+    - rdflib
