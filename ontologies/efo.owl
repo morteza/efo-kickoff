@@ -23,6 +23,9 @@
         <Class IRI="#AX-CPT"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Accuracy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AdaptiveNback"/>
     </Declaration>
     <Declaration>
@@ -45,9 +48,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ArrowTask"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Attention"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AttentionalBlinkTask"/>
@@ -89,6 +89,9 @@
         <Class IRI="#BehavioralControl"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BehavioralMeasure"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BehavioralRegulation"/>
     </Declaration>
     <Declaration>
@@ -102,6 +105,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#BoxCrossingDualTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brain"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BriefSelfControl"/>
@@ -119,10 +125,16 @@
         <Class IRI="#CRT"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CascadeOfControlModel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CategoryFluency"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CategorySwitchTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CellType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CentralExecutive"/>
@@ -137,6 +149,12 @@
         <Class IRI="#CognitiveFlexibilityTask"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CognitiveProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CognitiveTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CogntiveControl"/>
     </Declaration>
     <Declaration>
@@ -149,7 +167,7 @@
         <Class IRI="#ComplexSpan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Concepts"/>
+        <Class IRI="#ContextProcessing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ContingencyNamingTask"/>
@@ -263,7 +281,7 @@
         <Class IRI="#ExecutiveControl"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ExpressiveAttentionTask"/>
@@ -317,10 +335,16 @@
         <Class IRI="#GritScale"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Gyrus"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HaylingTest"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HeadToesKneesShouldersTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemisphere"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HierarchicalRule"/>
@@ -386,7 +410,13 @@
         <Class IRI="#LexicalFluencyTest"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#LezakConceptualModel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ListeningRecallTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lobe"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LocalGlobal"/>
@@ -419,13 +449,22 @@
         <Class IRI="#MatrixMonitoringTask"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MentalCountersTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MillerCohenModel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mindfulness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MisterXTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiyakeFriedmanModel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ModifiedCardSortTest"/>
@@ -449,6 +488,9 @@
         <Class IRI="#NebraskaBarnyard"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#NervousSystem"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#NineBoxes"/>
     </Declaration>
     <Declaration>
@@ -456,6 +498,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ObjectSubstitutionTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservableMeasure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OddOneOut"/>
@@ -492,6 +537,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemSolvingModel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PsychomotorVigilanceTask"/>
@@ -539,6 +587,9 @@
         <Class IRI="#RunningSpan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SASModel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SOC"/>
     </Declaration>
     <Declaration>
@@ -546,9 +597,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#STOPTask"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SelectiveAttention"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SelfControl"/>
@@ -560,10 +608,16 @@
         <Class IRI="#SelfRegulation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SelfRegulatoryModel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SemanticFluencyTest"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SensationSeeking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensitivityIndex"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SentenceCompletionTask"/>
@@ -588,9 +642,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Shifting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ShortTermMemory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Simon"/>
@@ -650,9 +701,6 @@
         <Class IRI="#TIPI"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Task"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#TaskSwitching"/>
     </Declaration>
     <Declaration>
@@ -663,6 +711,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TimePerspective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TissueType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopDownInhibitoryControlModel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TowerOfHanoi"/>
@@ -711,6 +765,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#WorkingMemory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkingMemoryModel"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="cogat:measured_by"/>
@@ -735,6 +792,10 @@
         <Class IRI="#ContiniousPerformanceTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Accuracy"/>
+        <Class IRI="#BehavioralMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AdaptiveNback"/>
         <Class IRI="#NBack"/>
     </SubClassOf>
@@ -744,7 +805,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AnalogyMakingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AnglingRisk"/>
@@ -752,11 +813,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AnimalShifting"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AntiSaccadeTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ArithmaticSpanTask"/>
@@ -767,20 +828,16 @@
         <Class IRI="#TempTask"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Attention"/>
-        <Class IRI="#Concepts"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#AttentionalBlinkTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AttentionalNetworkTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AuditoryAttention"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AutomatedOperationSpanTask"/>
@@ -800,7 +857,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BackwardsColorRecallTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BackwardsDigitSpan"/>
@@ -808,23 +865,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BalanceBeamTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BalloonAnalougeRiskTakingTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BearAlligatorTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BehavioralControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehavioralMeasure"/>
+        <Class IRI="#ObservableMeasure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BehavioralRegulation"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BickelTitrator"/>
@@ -832,7 +893,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlockDesignSubtest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlockSpan"/>
@@ -840,7 +901,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BoxCrossingDualTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brain"/>
+        <Class IRI="#NervousSystem"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BriefSelfControl"/>
@@ -863,16 +928,24 @@
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CascadeOfControlModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CategoryFluency"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CategorySwitchTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CellType"/>
+        <Class IRI="#NervousSystem"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CentralExecutive"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChoiceRT"/>
@@ -880,23 +953,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CognitiveFlexibility"/>
-        <Class IRI="#CoreExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CognitiveFlexibility"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CoreExecutiveFunction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CognitiveFlexibilityTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CogntiveControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ColorShapeTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ColoredProgressiveMatrices"/>
@@ -907,20 +980,24 @@
         <Class IRI="#SpanTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ContextProcessing"/>
+        <Class IRI="#CogntiveControl"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ContingencyNamingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ContiniousPerformanceTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControlledAttentionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoreExecutiveFunction"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CorsiBlockSpan"/>
@@ -928,7 +1005,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CountingRecall"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CountingSpanTask"/>
@@ -936,15 +1013,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Creativity"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CuedUnpredictableSwitchTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#D2TargetDetection"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DOSPERTEB"/>
@@ -964,23 +1041,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DeductiveReasoning"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DegradedVigilance"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelayChoice"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelayDiscountingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelayedAlternationTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dickman"/>
@@ -996,7 +1073,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DigitShiftingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DigitSpanTask"/>
@@ -1004,11 +1081,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DimensionSwitchingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DimensionalChangeCardSort"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DirectedForgetting"/>
@@ -1020,11 +1097,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dragon"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DualTaskCoordination"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ERQ"/>
@@ -1036,23 +1113,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EffectivePerformance"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EmotionalControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EmotionalRegulation"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnkaviTask"/>
+        <Class IRI="#TempTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExecutiveControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExpressiveAttentionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FTP"/>
@@ -1060,7 +1141,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FeedbackLearning"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FigureGoNoGo"/>
@@ -1072,19 +1153,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FlankerTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FlexibilityTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FlexibleItemSelectionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fluency"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FluidIntelligence"/>
@@ -1096,35 +1177,43 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Generativity"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GiftDelay"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GiftWrap"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GoNoGo"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GrassSnow"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GritScale"/>
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Gyrus"/>
+        <Class IRI="#NervousSystem"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HaylingTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeadToesKneesShouldersTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemisphere"/>
+        <Class IRI="#NervousSystem"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HierarchicalRule"/>
@@ -1132,7 +1221,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HigherOrderExecutiveFunction"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HoltLaury"/>
@@ -1144,7 +1233,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncompatibilityTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InformationSampling"/>
@@ -1152,19 +1241,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Inhibition"/>
-        <Class IRI="#CoreExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Inhibition"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CoreExecutiveFunction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InhibitoryControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Initiation"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterferenceControl"/>
@@ -1172,7 +1261,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IowaGamblingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KeepTrack"/>
@@ -1180,7 +1269,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KeepTrackTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kirby"/>
@@ -1188,7 +1277,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KnockAndTap"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LCAT"/>
@@ -1196,27 +1285,35 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LetterFluency"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LetterMemoryTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LetterMonitoring"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LetterNumberSequencing"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LexicalFluencyTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LezakConceptualModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ListeningRecallTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lobe"/>
+        <Class IRI="#NervousSystem"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LocalGlobal"/>
@@ -1224,7 +1321,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LocalGlobalTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LogicalReasoning"/>
@@ -1232,7 +1329,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LuriaHandGame"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MAAS"/>
@@ -1240,7 +1337,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MONITORTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MOT"/>
@@ -1252,35 +1349,43 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MajorityFunctionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MatrixMonitoringTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MentalCountersTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MillerCohenModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mindfulness"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MisterXTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiyakeFriedmanModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ModifiedCardSortTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MoreLessOddEvenTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MotivationalDrive"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MotorSSS"/>
@@ -1288,35 +1393,39 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MultipleObjectTracking"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NBack"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NebraskaBarnyard"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NineBoxes"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NumberLetterTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ObjectSubstitutionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservableMeasure"/>
+        <Class IRI="#Measure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OddOneOut"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OdditySwitchingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OperatingSpan"/>
@@ -1324,7 +1433,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Organization"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PRP"/>
@@ -1332,23 +1441,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PencilTappingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PickThePictureGame"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PictorialUpdatingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PictureSymbolTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PlusMinusTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProbSelection"/>
@@ -1356,23 +1465,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProblemSolving"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemSolvingModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PsychomotorVigilanceTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PurposiveAction"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RandomLetterGenerationTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RandomNumberGenerationTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ravens"/>
@@ -1388,7 +1501,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResponseConflict"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResponseInhibition"/>
@@ -1396,11 +1509,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReversalLearning"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReverseCategorization"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RevisedAttentionalNetworkTest"/>
@@ -1408,11 +1521,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RewardProcessing"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RunningSpan"/>
         <Class IRI="#SpanTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SASModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SOC"/>
@@ -1420,51 +1537,55 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SRCompatibilityTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#STOPTask"/>
-        <Class IRI="#Task"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SelectiveAttention"/>
-        <Class IRI="#Attention"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SelfControl"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SelfControlSchedule"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SelfRegulation"/>
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SelfRegulatoryModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SemanticFluencyTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SensationSeeking"/>
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SensitivityIndex"/>
+        <Class IRI="#BehavioralMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SentenceCompletionTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SentenceRepetition"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sequencing"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SerialSubtractionOfSevens"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShapeMatching"/>
@@ -1472,7 +1593,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShapeSchool"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Shift"/>
@@ -1480,11 +1601,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Shifting"/>
-        <Class IRI="#ExecutiveFunction"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ShortTermMemory"/>
-        <Class IRI="#Concepts"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Simon"/>
@@ -1492,11 +1609,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SimonSays"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SimonTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SimpleRT"/>
@@ -1504,23 +1621,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SnackDelay"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SomethingsTheSameGame"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SortingTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpanTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpatialConflictArrows"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpatialSpan"/>
@@ -1528,7 +1645,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpinThePots"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StandardProgressiveMatrices"/>
@@ -1544,19 +1661,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StopSignalTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StrategicRetrieval"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stroop"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Switching"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TIPI"/>
@@ -1567,6 +1684,10 @@
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TempTask"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TheoriesOfWillpower"/>
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
@@ -1575,16 +1696,24 @@
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TissueType"/>
+        <Class IRI="#NervousSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopDownInhibitoryControlModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TowerOfHanoi"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TowerOfLondon"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToySort"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TrailMakingTask"/>
@@ -1600,15 +1729,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Updating"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VerbalFluencyTask"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VerbalProcessing"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VerbalSpanTask"/>
@@ -1620,7 +1749,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VisuospatialProcessing"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VisuospatialSpanTask"/>
@@ -1628,19 +1757,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Volition"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WisconsinCardSortTest"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkingMemory"/>
+        <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WorkingMemory"/>
         <Class IRI="#CoreExecutiveFunction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#WorkingMemory"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#WorkingMemoryModel"/>
+        <Class IRI="#ExecutiveFunctionsModel"/>
     </SubClassOf>
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="cogat:measured_by"/>
@@ -1648,11 +1781,11 @@
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#measures"/>
-        <Class IRI="#Task"/>
+        <Class IRI="#CognitiveTask"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#measures"/>
-        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -1916,6 +2049,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#CellType</IRI>
+        <Literal>http://www.thttp://www.talairach.org/labels.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CellType</IRI>
+        <Literal>Talairach Deamon Label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#CentralExecutive</IRI>
         <Literal>baggetta2016</Literal>
     </AnnotationAssertion>
@@ -1956,8 +2099,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#CognitiveProcess</IRI>
+        <Literal>Unobservable cognitive process or generally speaking a latent construct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#CogntiveControl</IRI>
+        <Literal>Cognitive control enables optimal biasing of attention, perception, and actions in the service of mental or behavioral goals (@Mäki-Marttunen2019)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#CogntiveControl</IRI>
         <Literal>baggetta2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CogntiveControl</IRI>
+        <Literal>Reward induces more proactive processing in the AX-CPT task, whereas context load induces reactive processing (Mäki-Marttunen2019)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1978,6 +2136,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ComplexSpan</IRI>
         <Literal>Complex Span</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ContextProcessing</IRI>
+        <Literal>the active maintenance of updated information regarding the relations between stimuli and response (@polizzoto2018)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ContextProcessing</IRI>
+        <Literal>context processing is a core aspect of cognitive control (polizzotto2018)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3015,6 +3183,16 @@
         <Literal>Running Span</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SASModel</IRI>
+        <Literal>SAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SASModel</IRI>
+        <Literal>Supervisory Attentional System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#SRCompatibilityTask</IRI>
         <Literal>baggetta2016</Literal>
@@ -3063,6 +3241,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SemanticFluencyTest</IRI>
         <Literal>Semantic Fluency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensitivityIndex</IRI>
+        <Literal>d&apos;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
