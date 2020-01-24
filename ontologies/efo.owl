@@ -86,6 +86,9 @@
         <Class IRI="#BearAlligatorTask"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BehaverseTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BehavioralControl"/>
     </Declaration>
     <Declaration>
@@ -141,6 +144,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ChoiceRT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChoiceReactionTimeTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CognitiveFlexibility"/>
@@ -629,6 +635,9 @@
         <Class IRI="#Sequencing"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SerialReactionTimeTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SerialSubtractionOfSevens"/>
     </Declaration>
     <Declaration>
@@ -654,6 +663,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SimpleRT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleReactionTimeTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SnackDelay"/>
@@ -683,6 +695,9 @@
         <Class IRI="#StimSSS"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#StimulusResponseMapping"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#StopSignal"/>
     </Declaration>
     <Declaration>
@@ -705,6 +720,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TempTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestOfVariablesOfAttention"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TheoriesOfWillpower"/>
@@ -952,6 +970,10 @@
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ChoiceReactionTimeTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CognitiveFlexibility"/>
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
@@ -1584,6 +1606,10 @@
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SerialReactionTimeTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SerialSubtractionOfSevens"/>
         <Class IRI="#CognitiveTask"/>
     </SubClassOf>
@@ -1618,6 +1644,10 @@
     <SubClassOf>
         <Class IRI="#SimpleRT"/>
         <Class IRI="#EnkaviTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleReactionTimeTask"/>
+        <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SnackDelay"/>
@@ -1656,6 +1686,10 @@
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#StimulusResponseMapping"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#StopSignal"/>
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
@@ -1686,6 +1720,10 @@
     <SubClassOf>
         <Class IRI="#TempTask"/>
         <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestOfVariablesOfAttention"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TheoriesOfWillpower"/>
@@ -1956,6 +1994,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BearAlligatorTask</IRI>
         <Literal>Bear Alligator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BehaverseTask</IRI>
+        <Literal>temp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3329,6 +3372,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#SimpleReactionTimeTask</IRI>
+        <Literal>eisenberg2018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SimpleReactionTimeTask</IRI>
+        <Literal>Simple Reaction Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#SnackDelay</IRI>
         <Literal>baggetta2016</Literal>
     </AnnotationAssertion>
@@ -3436,6 +3489,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Switching</IRI>
         <Literal>Switching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Switching</IRI>
+        <Literal>Task Switching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TestOfVariablesOfAttention</IRI>
+        <Literal>TOVA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TestOfVariablesOfAttention</IRI>
+        <Literal>Test of Variables of Attention</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
