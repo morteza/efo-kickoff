@@ -98,6 +98,12 @@
         <Class IRI="#BehavioralRegulation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BelvalCardSortingTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BelvalMatricesTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BickelTitrator"/>
     </Declaration>
     <Declaration>
@@ -443,9 +449,6 @@
         <Class IRI="#MONITORTask"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MOT"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MPQControl"/>
     </Declaration>
     <Declaration>
@@ -476,6 +479,9 @@
         <Class IRI="#ModifiedCardSortTest"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MonkeyLadderTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MoreLessOddEvenTask"/>
     </Declaration>
     <Declaration>
@@ -486,6 +492,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#MultipleObjectTracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleObjectTrackingTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NBack"/>
@@ -509,7 +518,7 @@
         <Class IRI="#ObservableMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OddOneOut"/>
+        <Class IRI="#OddOneOutTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OdditySwitchingTask"/>
@@ -518,10 +527,16 @@
         <Class IRI="#OperatingSpan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OrderedClickTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Organization"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PRP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatternComparisonTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PencilTappingTask"/>
@@ -537,6 +552,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PlusMinusTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolygonsTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ProbSelection"/>
@@ -567,6 +585,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RecentProbes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegexTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RelationalReasoning"/>
@@ -695,7 +716,7 @@
         <Class IRI="#StimSSS"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StimulusResponseMapping"/>
+        <Class IRI="#StimulusResponseMappingTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StopSignal"/>
@@ -716,6 +737,9 @@
         <Class IRI="#TIPI"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TargetHitTask"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TaskSwitching"/>
     </Declaration>
     <Declaration>
@@ -732,6 +756,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TissueType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TokenSearchTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TopDownInhibitoryControlModel"/>
@@ -756,6 +783,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Updating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsefulFieldOfViewTask"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VerbalFluencyTask"/>
@@ -793,6 +823,12 @@
     <Declaration>
         <ObjectProperty IRI="#measures"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#behaverseShortName"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#EmotionalControl"/>
         <Class IRI="#EmotionalRegulation"/>
@@ -808,6 +844,10 @@
     <SubClassOf>
         <Class IRI="#AX-CPT"/>
         <Class IRI="#ContiniousPerformanceTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AX-CPT"/>
+        <Class IRI="#RegexTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Accuracy"/>
@@ -906,6 +946,18 @@
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BelvalCardSortingTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BelvalCardSortingTask"/>
+        <Class IRI="#WisconsinCardSortTest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BelvalMatricesTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BickelTitrator"/>
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
@@ -1146,10 +1198,6 @@
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EnkaviTask"/>
-        <Class IRI="#TempTask"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ExecutiveControl"/>
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
@@ -1362,10 +1410,6 @@
         <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MOT"/>
-        <Class IRI="#TempTask"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#MPQControl"/>
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
@@ -1402,6 +1446,10 @@
         <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MonkeyLadderTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MoreLessOddEvenTask"/>
         <Class IRI="#CognitiveTask"/>
     </SubClassOf>
@@ -1416,6 +1464,14 @@
     <SubClassOf>
         <Class IRI="#MultipleObjectTracking"/>
         <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleObjectTrackingTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NBack"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NBack"/>
@@ -1442,7 +1498,11 @@
         <Class IRI="#Measure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OddOneOut"/>
+        <Class IRI="#OddOneOutTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OddOneOutTask"/>
         <Class IRI="#CognitiveTask"/>
     </SubClassOf>
     <SubClassOf>
@@ -1454,12 +1514,20 @@
         <Class IRI="#SpanTask"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OrderedClickTask"/>
+        <Class IRI="#BehaverseTask"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Organization"/>
         <Class IRI="#CognitiveProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PRP"/>
         <Class IRI="#EnkaviTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatternComparisonTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PencilTappingTask"/>
@@ -1480,6 +1548,10 @@
     <SubClassOf>
         <Class IRI="#PlusMinusTask"/>
         <Class IRI="#CognitiveTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolygonsTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProbSelection"/>
@@ -1516,6 +1588,10 @@
     <SubClassOf>
         <Class IRI="#RecentProbes"/>
         <Class IRI="#EnkaviTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegexTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RelationalReasoning"/>
@@ -1686,7 +1762,7 @@
         <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StimulusResponseMapping"/>
+        <Class IRI="#StimulusResponseMappingTask"/>
         <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
@@ -1714,12 +1790,12 @@
         <Class IRI="#Questionnaire"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TaskSwitching"/>
-        <Class IRI="#EnkaviTask"/>
+        <Class IRI="#TargetHitTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TempTask"/>
-        <Class IRI="#CognitiveTask"/>
+        <Class IRI="#TaskSwitching"/>
+        <Class IRI="#EnkaviTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TestOfVariablesOfAttention"/>
@@ -1736,6 +1812,10 @@
     <SubClassOf>
         <Class IRI="#TissueType"/>
         <Class IRI="#NervousSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TokenSearchTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TopDownInhibitoryControlModel"/>
@@ -1768,6 +1848,10 @@
     <SubClassOf>
         <Class IRI="#Updating"/>
         <Class IRI="#CognitiveProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsefulFieldOfViewTask"/>
+        <Class IRI="#BehaverseTask"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VerbalFluencyTask"/>
@@ -2019,6 +2103,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BehavioralRegulation</IRI>
         <Literal>Behavioral Regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BelvalCardSortingTask</IRI>
+        <Literal>BCS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BelvalCardSortingTask</IRI>
+        <Literal>Belval Card Sorting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+        <IRI>#BelvalMatricesTask</IRI>
+        <Literal>BCS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -2896,6 +2995,11 @@
         <Literal>Modified Card Sorting Test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MonkeyLadderTask</IRI>
+        <Literal>Monkey Ladder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#MoreLessOddEvenTask</IRI>
         <Literal>baggetta2016</Literal>
@@ -2924,6 +3028,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MultipleObjectTracking</IRI>
         <Literal>Multiple Object Tracking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+        <IRI>#MultipleObjectTrackingTask</IRI>
+        <Literal>MOT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -2977,17 +3086,17 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
-        <IRI>#OddOneOut</IRI>
+        <IRI>#OddOneOutTask</IRI>
         <Literal>baggetta2016</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OddOneOut</IRI>
+        <IRI>#OddOneOutTask</IRI>
         <Literal>OOO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OddOneOut</IRI>
+        <IRI>#OddOneOutTask</IRI>
         <Literal>Odd One Out</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -3011,6 +3120,16 @@
         <Literal>OSpan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaverseShortName"/>
+        <IRI>#OrderedClickTask</IRI>
+        <Literal>OC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrderedClickTask</IRI>
+        <Literal>Ordered Click</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#Organization</IRI>
         <Literal>baggetta2016</Literal>
@@ -3019,6 +3138,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Organization</IRI>
         <Literal>Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+        <IRI>#PatternComparisonTask</IRI>
+        <Literal>PC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3069,6 +3193,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PlusMinusTask</IRI>
         <Literal>Plus Minus Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PolygonsTask</IRI>
+        <Literal>Polygons</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3139,6 +3268,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Ravens</IRI>
         <Literal>Raven&apos;s Matrices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegexTask</IRI>
+        <Literal>RE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegexTask</IRI>
+        <Literal>RegEx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3446,6 +3585,16 @@
         <Literal>Spin the Pots</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaverseShortName"/>
+        <IRI>#StimulusResponseMappingTask</IRI>
+        <Literal>SRM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StimulusResponseMappingTask</IRI>
+        <Literal>Stimulus Response Mapping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>#StopSignalTask</IRI>
         <Literal>baggetta2016</Literal>
@@ -3497,6 +3646,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TargetHitTask</IRI>
+        <Literal>Target Hit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#TestOfVariablesOfAttention</IRI>
         <Literal>TOVA</Literal>
     </AnnotationAssertion>
@@ -3504,6 +3658,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#TestOfVariablesOfAttention</IRI>
         <Literal>Test of Variables of Attention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+        <IRI>#TokenSearchTask</IRI>
+        <Literal>TS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TokenSearchTask</IRI>
+        <Literal>Token Search</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3559,6 +3723,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Updating</IRI>
         <Literal>Updating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UsefulFieldOfViewTask</IRI>
+        <Literal>UFOV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UsefulFieldOfViewTask</IRI>
+        <Literal>Useful Field of View</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -3660,6 +3834,14 @@
         <IRI>#WorkingMemory</IRI>
         <Literal>Working Memory</Literal>
     </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#behaversePrefix"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#behaverseShortName"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
 </Ontology>
 
 
